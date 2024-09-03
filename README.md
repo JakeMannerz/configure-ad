@@ -63,11 +63,12 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 ![image](https://github.com/user-attachments/assets/4ad4ac77-9908-4d4d-902c-8bcda09d2663)
 ![image](https://github.com/user-attachments/assets/3c137316-d58f-4e4e-bbfb-881103594cdf)
-![image](https://github.com/user-attachments/assets/40fc0ec1-8948-4448-ad4e-4b6434690897)
+![image](https://github.com/user-attachments/assets/7b88ca39-44a8-4a3a-b2b5-a279bcc6e2e2)
 ![image](https://github.com/user-attachments/assets/8db260ce-c546-402c-8f47-b5b2eb76afda)
 ![image](https://github.com/user-attachments/assets/e0f11683-ce57-4f86-9340-6606ef33241b)
-![image](https://github.com/user-attachments/assets/5bbb604d-6be8-4d67-b9ea-a2c41b89e63f)
-![image](https://github.com/user-attachments/assets/aa8fef89-5098-4ddd-a24a-291b148cfebc)
+![image](https://github.com/user-attachments/assets/9523ca2f-94c5-4988-a2d8-cffed29de75c)
+![image](https://github.com/user-attachments/assets/75a16a28-8dc8-45e8-87a2-f0be5053f74b)
+
 
   - Set Domain Controller’s NIC Private IP address to be static
     - Go to Virtual Machines
@@ -80,10 +81,13 @@ This tutorial outlines the implementation of on-premises Active Directory within
     
 
 
-![image](https://github.com/user-attachments/assets/c9b1ec18-62a8-4b24-bc7f-6f108f504615)
-![image](https://github.com/user-attachments/assets/ce4f74fd-aae8-4b2d-88fc-40b9f89eeafe)
-![image](https://github.com/user-attachments/assets/adee90c2-9deb-44ea-97eb-abc0ee829f1e)
-![image](https://github.com/user-attachments/assets/6f4c99d3-8f5e-49b8-97e5-9ed5dfced1ed)
+![image](https://github.com/user-attachments/assets/931b2ef1-fed8-4cb0-8fad-2b849f8ac3c4)
+
+![image](https://github.com/user-attachments/assets/4dda9a4b-4077-4076-903f-e5ebc40fccec)
+
+![image](https://github.com/user-attachments/assets/f0db62e4-e2bf-4844-888c-176a44c5a24f)
+
+![image](https://github.com/user-attachments/assets/4d8f190e-3afa-4548-8c56-e3a4b3724538)
 
 
 2. Ensure Connectivity between the Client and Domain Controller
@@ -105,12 +109,14 @@ This tutorial outlines the implementation of on-premises Active Directory within
         -Stop the ping by hitting 'ctrl +c' on your keyboard
 
  
- ![image](https://github.com/user-attachments/assets/aa6548d5-4c88-4779-b5b1-9c9a770cea4a)
- ![image](https://github.com/user-attachments/assets/e3272cd4-510b-468f-9783-10377d1fba48)
+![image](https://github.com/user-attachments/assets/202ca97e-30f1-4965-b2be-82d978c7a844)
+
+![image](https://github.com/user-attachments/assets/c34fb83e-3f53-40a5-ad4e-8bd807ef6dc1)
+
  ![image](https://github.com/user-attachments/assets/76741db9-27d9-49a0-9e8e-9157b8f4d093)
  ![image](https://github.com/user-attachments/assets/e3cf7311-02aa-400e-91b3-00a32df7270a)
- 
- ![image](https://github.com/user-attachments/assets/bdce7dfe-1c44-4660-8b70-8e2c87f0eb88)
+ ![image](https://github.com/user-attachments/assets/759bfdb5-c538-45e3-a1b8-de7210345927)
+
  ![image](https://github.com/user-attachments/assets/a0183cbe-33e2-4a65-9cef-805205da3b41)
  ![image](https://github.com/user-attachments/assets/ab103da5-5de0-40c0-9f80-4866899caed3)
  ![image](https://github.com/user-attachments/assets/749efea2-73f3-48e4-adfe-0bfcdb3b9209)
@@ -191,14 +197,18 @@ This tutorial outlines the implementation of on-premises Active Directory within
      - Once logged in, right click the start menu -> go to System -> click 'Rename this PC (advancded) on the right -> click 'Change' -> select 'Domain' -> enter your Domain Name -> click 'Ok' -> enter the admins credentials 'mydomain.com\jane_admin' -> click 'Ok' -> a window will pop up asking to restart the computer, click 'Restart now' (if not, go to the start menu and click 'Restart' to force it, log back into Client-1 VM w/ the admin credentials)
   - You have now joined Client-1 to the Domain successfully
 
-![image](https://github.com/user-attachments/assets/ceee869e-671e-413f-a06e-b802fe3db40c)
-![image](https://github.com/user-attachments/assets/ae7226ca-f1a4-440b-81f0-1315a8be6033)
-![image](https://github.com/user-attachments/assets/90e8def0-8f34-4ef9-b47d-0030aec8c1b9)
+![image](https://github.com/user-attachments/assets/b1c265cc-68dc-43e6-8a92-e483a2780061)
+
+![image](https://github.com/user-attachments/assets/1fa0521e-3faf-4169-8378-ccf0809e6b11)
+
+![image](https://github.com/user-attachments/assets/7faffc0a-db01-4031-a53b-7edeffe55423)
+
 ![image](https://github.com/user-attachments/assets/d1ddcd20-74f8-47b3-ac7f-c3c83a4de51a)
 ![image](https://github.com/user-attachments/assets/55b05aad-5f9d-4eb7-8434-9c38d486dc60)
 ![image](https://github.com/user-attachments/assets/91081427-7576-4bc3-8267-abbfe7a4186a)
 ![image](https://github.com/user-attachments/assets/2def5aaf-6a38-49e1-9f07-26ad0221faf9)
-![image](https://github.com/user-attachments/assets/7f767e2d-42fa-4479-a52c-f7ee51ecd5b0)
+![image](https://github.com/user-attachments/assets/b06da39d-d4a4-4af4-a1b1-98847e61af98)
+
 
 
 
